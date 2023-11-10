@@ -16,8 +16,8 @@ interface IOptionsProps {
 export default function Dropdown({ title, options, ...props }: IDropdownProps) {
   const [isHovered, setIsHovered] = useState(false);
 
-  const toggleHoverTrue = () => {
-    setIsHovered(true);
+  const toggleHover = () => {
+    setIsHovered(!isHovered);
   };
 
   const toggleHoverFalse = () => {
@@ -27,7 +27,7 @@ export default function Dropdown({ title, options, ...props }: IDropdownProps) {
   const Icon = isHovered ? ArrowUp : ArrowDown;
 
   return (
-    <div className="relative inline-block" onClick={toggleHoverTrue}>
+    <div className="relative inline-block" onClick={toggleHover}>
       <span className="flex justify-center items-center gap-2 p-2 cursor-pointer">
         {title} <Icon />
         {isHovered && (
