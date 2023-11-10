@@ -4,9 +4,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-4 sm:mt-8 p-4 rounded-md border border-gray-300 text-white ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-8 py-4 sm:py-8 flex flex-col sm:flex-row items-center justify-between">
-        <div className="mb-4 sm:mb-0">
+    <footer className="fixed bottom-0 left-0 right-0 p-4 bg-purple-600 text-white">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div>
           <p>&copy; Lucas Marchesoni, 2023</p>
         </div>
         <div className="flex space-x-4">
