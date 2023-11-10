@@ -27,7 +27,7 @@ export default function Dropdown({ title, options, ...props }: IDropdownProps) {
   const Icon = isHovered ? ArrowUp : ArrowDown;
 
   return (
-    <div className="relative inline-block" onMouseEnter={toggleHoverTrue}>
+    <div className="relative inline-block" onClick={toggleHoverTrue}>
       <span className="flex justify-center items-center gap-2 p-2 cursor-pointer">
         {title} <Icon />
         {isHovered && (
