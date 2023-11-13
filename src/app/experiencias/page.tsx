@@ -11,7 +11,7 @@ export default function Experiencias() {
           <hr />
         </div>
         <section className="mt-4 sm:mt-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-purple-700 font-bold">
             Minhas experiências
           </h1>
         </section>

@@ -11,7 +11,7 @@ export default function SobreMim() {
           <hr />
         </div>
         <section id="about" className="mt-4 sm:mt-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-purple-700 font-bold">
             Sobre mim
           </h1>
         </section>

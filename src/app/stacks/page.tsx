@@ -12,7 +12,9 @@ export default function Stacks() {
           <hr />
         </div>
         <section className="mt-4 sm:mt-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Stacks</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-purple-700 font-bold">
+            Stacks
+          </h1>
         </section>
         <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-8 mt-8 bg-dark text-white">
           {stacksList.map((stack) => (
