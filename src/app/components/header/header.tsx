@@ -27,13 +27,9 @@ export default function Header() {
             />
           </li>
           <li>
-            <Dropdown
-              title="Projetos"
-              options={[
-                { href: "projetos-academicos", title: "Projetos acadêmicos" },
-                { href: "projetos-pessoais", title: "Projetos pessoais" },
-              ]}
-            />
+            <Link className="p-2" href="projetos">
+              Projetos
+            </Link>
           </li>
           <li>
             <Link className="p-2" href="/contato">

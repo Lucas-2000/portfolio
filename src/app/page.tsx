@@ -44,7 +44,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href="/projetos-pessoais"
+            href="/projetos"
             className="w-full h-full flex flex-col items-center justify-center text-white bg-purple-600 hover:bg-purple-800 hover:scale-105 hover:opacity-80 border border-gray-300 rounded-md transition-transform duration-300 mt-4 sm:mt-0"
           >
             <div className="w-16 h-16 flex items-center justify-center">
