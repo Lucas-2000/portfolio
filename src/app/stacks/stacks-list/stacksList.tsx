@@ -1,0 +1,86 @@
+export const stacksList = [
+  {
+    id: 1,
+    stack: "Javascript",
+    level: "Intermediário",
+    image: "/images/javascript.png",
+  },
+  {
+    id: 2,
+    stack: "Typescript",
+    level: "Intermediário",
+    image: "/images/typescript.png",
+  },
+  {
+    id: 3,
+    stack: "Node",
+    level: "Intermediário",
+    image: "/images/node.png",
+  },
+  {
+    id: 4,
+    stack: "React",
+    level: "Intermediário",
+    image: "/images/react.png",
+  },
+  {
+    id: 5,
+    stack: "Angular",
+    level: "Intermediário",
+    image: "/images/angular.png",
+  },
+  {
+    id: 6,
+    stack: "HTML",
+    level: "Intermediário",
+    image: "/images/html.png",
+  },
+  {
+    id: 7,
+    stack: "CSS",
+    level: "Intermediário",
+    image: "/images/css.png",
+  },
+  {
+    id: 8,
+    stack: "Tailwind",
+    level: "Básico",
+    image: "/images/tailwind.png",
+  },
+  {
+    id: 9,
+    stack: "Java",
+    level: "Básico",
+    image: "/images/java.png",
+  },
+  {
+    id: 10,
+    stack: "Spring",
+    level: "Básico",
+    image: "/images/spring.png",
+  },
+  {
+    id: 11,
+    stack: "PHP",
+    level: "Básico",
+    image: "/images/php.png",
+  },
+  {
+    id: 12,
+    stack: "SQL",
+    level: "Intermediário",
+    image: "/images/sql.png",
+  },
+  {
+    id: 13,
+    stack: "Postgres",
+    level: "Intermediário",
+    image: "/images/postgres.png",
+  },
+  {
+    id: 14,
+    stack: "MySQL",
+    level: "Intermediário",
+    image: "/images/mysql.png",
+  },
+];
