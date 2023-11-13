@@ -14,7 +14,7 @@ interface Repo {
   forks_count: number;
   language: string;
   created_at: string;
-  updated_at: string;
+  pushed_at: string;
   license: {
     name: string;
   } | null;
@@ -42,6 +42,7 @@ export default function Projetos() {
           allRepos = [...allRepos, ...response.data];
           page++;
         }
+        console.log(allRepos);
 
         setRepos(allRepos);
         setLoading(false);
@@ -105,7 +106,7 @@ export default function Projetos() {
                     </p>
                     <p className="text-gray-400">
                       Atualizado em:{" "}
-                      {new Date(repo.updated_at).toLocaleDateString()}
+                      {new Date(repo.pushed_at).toLocaleDateString()}
                     </p>
                     {repo.license && (
                       <p className="text-gray-400">
