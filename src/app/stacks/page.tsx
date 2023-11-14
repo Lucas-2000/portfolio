@@ -1,9 +1,18 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 import { stacksList } from "./stacks-list/stacksList";
 
 export default function Stacks() {
+  const [imagesLoaded, setImagesLoaded] = useState(0);
+
+  // Função para marcar que as imagens foram carregadas
+  const handleImageLoaded = () => {
+    setImagesLoaded(imagesLoaded + 1);
+  };
+
   return (
     <div>
       <main className="max-w-7xl mx-auto px-4 sm:px-8 py-4 sm:py-8">
@@ -33,7 +42,11 @@ export default function Stacks() {
                   width={150}
                   height={150}
                   className="rounded-md"
+                  onLoad={handleImageLoaded}
                 />
+                {!imagesLoaded && (
+                  <div className="animate-pulse bg-gray-700 w-32 h-32 rounded-md"></div>
+                )}
               </div>
             </div>
           ))}
