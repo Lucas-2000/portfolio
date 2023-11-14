@@ -42,7 +42,6 @@ export default function Projetos() {
           allRepos = [...allRepos, ...response.data];
           page++;
         }
-        console.log(allRepos);
 
         setRepos(allRepos);
         setLoading(false);
